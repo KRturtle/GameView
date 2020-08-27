@@ -8,5 +8,10 @@
 	<h1>Hello world!</h1>
 
 	<P>The time on the server is ${serverTime}.</P>
+
+	<p>
+		<a href="/board/free_board">자유게시판</a>
+	</p>
+	
 </body>
 </html>

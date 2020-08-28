@@ -23,7 +23,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#">게임뷰 - GameView</a>
+			<a class="navbar-brand" href="/">게임뷰 - GameView</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarResponsive" aria-controls="navbarResponsive"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -67,18 +67,18 @@
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 					</ol>
-					<div class="carousel-inner" role="listbox">
+					<div class="carousel-inner" role="listbox" >
 						<div class="carousel-item active">
-							<img class="d-block img-fluid" src="http://placehold.it/900x350"
-								alt="First slide">
+							<a href="https://lostark.game.onstove.com/Main"><img class="d-block img-fluid" src="http://static.inven.co.kr/column/2020/07/01/news/i14257672497.png" width="700" height="350"
+								alt="First slide"></a>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block img-fluid" src="http://placehold.it/900x350"
-								alt="Second slide">
+							<a href="http://m.inven.co.kr/webzine/wznews.php?site=webzine&iskin=webzine&game=&idx=243701"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i13588451997.jpg" width="700" height="350"
+								alt="Second slide"></a>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block img-fluid" src="http://placehold.it/900x350"
-								alt="Third slide">
+							<a href="http://inven.co.kr/webzine/wznews.php?idx=243693"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i15969941625.jpg" width="700" height="350"
+								alt="Third slide"></a>
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -96,14 +96,14 @@
 
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
+							<a href="http://www.inven.co.kr/webzine/news/?news=243710&site=lol"><img class="card-img-top"
+								src="https://static.inven.co.kr/column/2020/08/17/news/i15787951737.jpg" width="400" height="200" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
 									<a href="http://lol.inven.co.kr/">리그오브레전드</a>
 								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
+								<h5>LCK 프랜차이즈 심사 사실상 마무리...</h5>
+								<p class="card-text">LCK 프랜차이즈 지원서를 접수한 기업은 총 21팀. 여기서 1차 서면 심사를 통해... </p>
 							</div>
 							
 						</div>
@@ -111,14 +111,14 @@
 
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
+							<a href="https://www.hankyung.com/sports/article/202008275018v"><img class="card-img-top"
+								src="http://image.newdaily.co.kr/site/data/img/2020/08/27/2020082700167_0.jpg" width="400" height="200" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
-									<a href="#">피파온라인</a>
+									<a href="http://fifaonline4.nexon.com/main/index">피파온라인4</a>
 								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
+								<h5>FIFA 온라인4 한국 대표 선발전, 27일부터 나흘간 본선 진행</h5>
+								<p class="card-text">㈜넥슨(대표 이정헌)은 EA 아시아 스튜디오인 EA코리아 스튜디오가 개발하고 자사가 서비스하는....</p>
 							</div>
 
 						</div>
@@ -126,56 +126,28 @@
 
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
+							<a href="http://www.inven.co.kr/webzine/news/?news=243499&site=lineage2m"><img class="card-img-top"
+								src="https://static.inven.co.kr/column/2020/08/25/news/i15669568701.jpg" width="400" height="200" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
-									<a href="#">리니지2</a>
+									<a href="https://lineage2m.plaync.com/">리니지2</a>
 								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
+								<h5>롱런의 기틀 마련한 '리니지2M', 오는 9월 월드 공성전 선보인다</h5>
+								<p class="card-text">엔씨소프트가 서비스 중인 모바일 MMORPG '리니지2M'이 서비스 1주년까지 3개월 가량 남은 시점에서 대규모 업데이트를 연달아 진행하며, 롱런의 기틀을 마련하고 있다.</p>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-lg-4 col-md-6 mb-4">
 						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
+							<a href="https://zdnet.co.kr/view/?no=20200827140348"><img class="card-img-top"
+								src="https://image.zdnet.co.kr/2020/08/27/bd9e8c4e35077c67da41ca96b9c21303.jpg" width="400" height="200" alt=""></a>
 							<div class="card-body">
 								<h4 class="card-title">
-									<a href="#">배틀그라운드</a>
+									<a href="https://pubg.game.daum.net/pubg/index.daum">배틀그라운드</a>
 								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
-							<div class="card-body">
-								<h4 class="card-title">
-									<a href="#">서든어택</a>
-								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 mb-4">
-						<div class="card h-100">
-							<a href="#"><img class="card-img-top"
-								src="http://placehold.it/700x400" alt=""></a>
-							<div class="card-body">
-								<h4 class="card-title">
-									<a href="#">오버워치</a>
-								</h4>
-								<h5>제목</h5>
-								<p class="card-text">게시판 내용이 올라갑니다</p>
+								<h5>펍지, 배틀그라운드 PCS2 개막</h5>
+								<p class="card-text">펍지주식회사(대표 김창한)는 플레이어언노운스 배틀그라운드의 글로벌 이스포츠 대회 ‘펍지 콘티넨털 시리즈 아시아 시즌2’(이하 PCS2)...</p>
 							</div>
 						</div>
 					</div>

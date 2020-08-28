@@ -1,5 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
-	pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <head>
 <!DOCTYPE html>
 <meta charset="utf-8">
@@ -11,10 +12,13 @@
 <title>Spring page - GameView</title>
 
 <!-- Bootstrap core CSS -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link
+	href="${pageContext.request.contextPath}/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
 
 <!-- Custom styles for this template -->
-<link href="css/shop-homepage.css" rel="stylesheet">
+<link href="${pageContext.request.contextPath}/css/shop-homepage.css"
+	rel="stylesheet">
 
 </head>
 
@@ -34,8 +38,8 @@
 					<li class="nav-item active"><a class="nav-link" href="#">게임
 							뉴스 <span class="sr-only"></span>
 					</a></li>
-					<li class="nav-item"><a class="nav-link" href="/board/free_board">공략게시판</a></li>
-					<li class="nav-item"><a class="nav-link" href="/board/free_board">자유게시판</a></li>
+						<li class="nav-item"><a class="nav-link"
+						href="/user/login">로그인 / 회원가입</a></li>
 				</ul>
 			</div>
 		</div>
@@ -50,8 +54,8 @@
 
 				<h1 class="my-4">게임 뉴스</h1>
 				<div class="list-group">
-					<a href="/board/free_board" class="list-group-item">공략게시판</a> 
-					<a href="/board/free_board"	class="list-group-item">자유게시판</a>
+					<a href="/board/free_board" class="list-group-item">공략 게시판</a> 
+					<a href="/board/free_board" class="list-group-item">자유 게시판</a>
 				</div>
 
 			</div>
@@ -67,17 +71,17 @@
 						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 					</ol>
-					<div class="carousel-inner" role="listbox" >
+					<div class="carousel-inner" role="listbox" width="900" height="350" >
 						<div class="carousel-item active">
-							<a href="https://lostark.game.onstove.com/Main"><img class="d-block img-fluid" src="http://static.inven.co.kr/column/2020/07/01/news/i14257672497.png" width="700" height="350"
+							<a href="https://lostark.game.onstove.com/Main"><img class="d-block img-fluid" src="http://static.inven.co.kr/column/2020/07/01/news/i14257672497.png"  width="900" height="350"
 								alt="First slide"></a>
 						</div>
 						<div class="carousel-item">
-							<a href="http://m.inven.co.kr/webzine/wznews.php?site=webzine&iskin=webzine&game=&idx=243701"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i13588451997.jpg" width="700" height="350"
+							<a href="http://m.inven.co.kr/webzine/wznews.php?site=webzine&iskin=webzine&game=&idx=243701"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i13588451997.jpg" width="900" height="350" 
 								alt="Second slide"></a>
 						</div>
-						<div class="carousel-item">
-							<a href="http://inven.co.kr/webzine/wznews.php?idx=243693"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i15969941625.jpg" width="700" height="350"
+						<div class="carousel-item" >
+							<a href="http://inven.co.kr/webzine/wznews.php?idx=243693"><img class="d-block img-fluid" src="https://static.inven.co.kr/column/2020/08/28/news/i15969941625.jpg"  width="900" height="350"
 								alt="Third slide"></a>
 						</div>
 					</div>
@@ -174,8 +178,11 @@
 	</footer>
 
 	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script
+		src="${pageContext.request.contextPath}/vendor/jquery/jquery.min.js"></script>
+	<script
+		src="${pageContext.request.contextPath}/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 
